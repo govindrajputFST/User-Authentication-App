@@ -19,7 +19,7 @@ const SignIn = () => {
       localStorage.getItem("password") == data.password &&
       localStorage.getItem("email") == data.email
     ) {
-      navigate("/");
+      navigate("/home");
     } else {
       alert("Wrong Password or Email ID");
     }
